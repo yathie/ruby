@@ -1,0 +1,10 @@
+kata
+
+#funcão recebe um array e um numero se array[numero] existe elevar o valor de acordo com numero, senão retornar -1
+def index(array, n)
+  if array.length <= n
+    return -1
+  else
+    return array[n]**n
+  end
+end
